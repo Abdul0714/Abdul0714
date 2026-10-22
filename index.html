@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop stylish ladies unstitched suits at M3 Thread.">
+  <title>M3 Thread | Ladies Unstitched Suits</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #29251f;
+      background: #fffdf9;
+    }
+    header {
+      background: #fff;
+      padding: 18px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee6dc;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo { font-size: 27px; font-weight: bold; letter-spacing: 2px; }
+    nav a {
+      color: #29251f;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+    .hero {
+      background: #f2e7da;
+      padding: 65px 7%;
+      text-align: center;
+    }
+    .hero p { color: #67594b; line-height: 1.7; }
+    h1 { font-size: clamp(32px, 5vw, 52px); margin: 12px 0; }
+    .btn {
+      display: inline-block;
+      background: #354d3b;
+      color: white;
+      padding: 13px 22px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+    section { padding: 42px 6%; }
+    .section-title { text-align: center; margin-bottom: 28px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #eee6dc;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+      background: #f2e7da;
+    }
+    .product h3 { margin: 15px 8px 8px; }
+    .price { font-weight: bold; color: #354d3b; }
+    .product .btn { margin: 8px; }
+    .about { background: #f8f2eb; text-align: center; line-height: 1.8; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #292f27;
+      color: white;
+      font-size: 14px;
+    }
+    @media (max-width: 480px) {
+      header { justify-content: center; }
+      nav a { margin: 0 7px; }
+      .hero { padding: 45px 5%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">M3 THREAD</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p>STYLE • COMFORT • EVERYDAY ELEGANCE</p>
+      <h1>Discover Your Everyday Style</h1>
+      <p>Explore stylish ladies unstitched suits with M3 Thread.</p>
+      <a class="btn" href="#shop">Explore Collection</a>
+    </section>
+
+    <section id="shop">
+      <h2 class="section-title">Our Collection</h2>
+      <div class="products">
+        <article class="product">
+          <img src="https://placehold.co/600x750/f0e5d8/554638?text=Your+Suit+Photo"
+               alt="Ladies unstitched suit">
+          <h3>Chevron — 2 Piece Suit</h3>
+          <p>Stylish printed fabric</p>
+          <p class="price">Rs. Add Your Price</p>
+          <a class="btn" href="#contact">Order Now</a>
+        </article>
+        <article class="product">
+          <img src="https://placehold.co/600x750/e8e4da/554638?text=Your+Suit+Photo"
+               alt="Ladies unstitched suit">
+          <h3>New Arrival</h3>
+          <p>Add your product details</p>
+          <p class="price">Rs. Add Your Price</p>
+          <a class="btn" href="#contact">Order Now</a>
+        </article>
+        <article class="product">
+          <img src="https://placehold.co/600x750/e8deda/554638?text=Your+Suit+Photo"
+               alt="Ladies unstitched suit">
+          <h3>Featured Collection</h3>
+          <p>Add your product details</p>
+          <p class="price">Rs. Add Your Price</p>
+          <a class="btn" href="#contact">Order Now</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About M3 Thread</h2>
+      <p>Discover thoughtfully selected ladies unstitched suits
+         for your everyday wardrobe and special moments.</p>
+    </section>
+
+    <section id="contact" style="text-align:center">
+      <h2>Ready to Order?</h2>
+      <p>Contact us on WhatsApp for product details and orders.</p>
+      <a class="btn" href="https://wa.me/923001234567"
+         target="_blank" rel="noopener">Order on WhatsApp</a>
+      <p style="font-size:13px;color:#756b61">
+        Replace the sample WhatsApp number with your business number.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 M3 Thread. All rights reserved.
+  </footer>
+</body>
+</html>
 
